@@ -6,10 +6,13 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Document</title>
     
-    <link rel="preload stylesheet" href="/dist/style.css" as="style">
+    <link rel="preload stylesheet" href="https://cdn.jsdelivr.net/npm/@fatal_error/banner_popup@1.0.5/style.css" as="style">
   </head>
   <body>
-    <script src="/dist/popup.umd.cjs"></script>
+
+    <div id="banner"></div>
+    <div id="banner1"></div>
+    <script src="https://cdn.jsdelivr.net/npm/@fatal_error/banner_popup@1.0.5"></script>
 
     <script>
       const conf = {
@@ -17,7 +20,22 @@
         width: "500px",
       };
 
-      labelbaker.labelbakerPopup(conf);
+      const bannerConfig = {
+        url: "https://cdn.jsdelivr.net/gh/prappo/label-template-api@1.1.1/public/templates/ad/templates/ad1/template.json",
+        width: "500px",
+        container:'banner'
+      }
+
+      const bannerConfig1 = {
+        url: "https://cdn.jsdelivr.net/gh/prappo/label-template-api@1.1.1/public/templates/ad/templates/ad1/template.json",
+        width: "500px",
+        container:'banner1'
+      }
+
+      labelbaker.labelbakerBanner(bannerConfig)
+      // labelbaker.labelbakerBanner(bannerConfig1)
+
+      // labelbaker.labelbakerPopup(conf);
     </script>
   </body>
 </html>
