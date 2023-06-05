@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    
+    <link rel="preload stylesheet" href="/dist/style.css" as="style">
+  </head>
+  <body>
+    <script src="/dist/popup.umd.cjs"></script>
+
+    <script>
+      const conf = {
+        url: "https://cdn.jsdelivr.net/gh/prappo/label-template-api@1.1.1/public/templates/ad/templates/ad1/template.json",
+        width: "500px",
+      };
+
+      labelbaker.labelbakerPopup(conf);
+    </script>
+  </body>
+</html>
