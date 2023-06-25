@@ -3,7 +3,7 @@ import { makeCanvas } from './popup';
 
 const makeId = (length) => {
   let result = '';
-  const characters = 'ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz0123456789';
+  const characters = 'abcdefghijklmno';
   const charactersLength = characters.length;
   for(let counter = 0; counter < length; counter++) {
     result += characters.charAt(Math.floor(Math.random() * charactersLength));
@@ -106,7 +106,7 @@ export function labelbakerPopup(config) {
 // const conf = {
 //   url: "https://sample-file.com/i/53616c7465645f5f275a3d6ba7fdf6c1805a9be85219b78991c5dfa33b169f731572abbe72be885362db23c7ef73fe99/53616c7465645f5f4a18012b7dbc8a71c06b55eb518a71d33770db255d112afe",
 //   width: "500px",
-  
+//   // showOnce:true,
 // };
 
 // const bannerConfig = {
