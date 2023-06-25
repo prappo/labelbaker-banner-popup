@@ -7,10 +7,10 @@
   "resolved" "https://registry.npmjs.org/@esbuild/darwin-x64/-/darwin-x64-0.17.18.tgz"
   "version" "0.17.18"
 
-"@fatal_error/editor@^1.0.10":
-  "integrity" "sha512-E5Ik3Uin4zEY1oOWgCLhAekH0ASpBLZ8Id6JuME8xJVEeGWtgJRQ1b0lq6fmIHNdKUJo5Bt7Us3ROzr94397aw=="
-  "resolved" "https://registry.npmjs.org/@fatal_error/editor/-/editor-1.0.10.tgz"
-  "version" "1.0.10"
+"@fatal_error/editor@^1.2.1":
+  "integrity" "sha512-w459t5NMka5AfkV4FQKllPIUAT51U35DmhL5aAasBHQoVNuVljulmvcnBYy8N0aYT+ecYTZd5BLHXqKHG4xv7A=="
+  "resolved" "https://registry.npmjs.org/@fatal_error/editor/-/editor-1.2.1.tgz"
+  "version" "1.2.1"
 
 "@jridgewell/sourcemap-codec@^1.4.13":
   "integrity" "sha512-eF2rxCRulEKXHTRiDrDy6erMYWqNw4LPdQ8UQA4huuxaQsVeRPFl2oM8oDGxMFhJUWZf9McpLtJasDDZb/Bpeg=="
