@@ -1,4 +1,5 @@
 {
+<<<<<<< HEAD
     "name": "@fatal_error/banner_popup",
     "version": "1.0.10",
     "main": "labelbaker.js",
@@ -12,3 +13,18 @@
     "author": "Fatal Error"
     
   }
+=======
+  "name": "@fatal_error/banner_popup",
+  "version": "1.0.8",
+  "main": "labelbaker.js",
+  "publishConfig": {
+    "access": "public"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+ 
+  "author": "Fatal Error"
+  
+}
+>>>>>>> 1fbe4b244d517a7b903c2076dfe5eb294d7db901
