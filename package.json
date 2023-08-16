@@ -13,6 +13,6 @@
     "vite": "^4.3.2"
   },
   "dependencies": {
-    "@fatal_error/editor": "^1.2.0"
+    "@fatal_error/editor": "^1.2.3"
   }
 }

@@ -7,10 +7,10 @@
   "resolved" "https://registry.npmjs.org/@esbuild/win32-x64/-/win32-x64-0.17.19.tgz"
   "version" "0.17.19"
 
-"@fatal_error/editor@^1.2.0":
-  "integrity" "sha512-MaLewPODC9TzC6RVKsY+6Co+AEOxcCY0eAFmz9lkZO3FAGX+K1kVS/gTxrKoZtm9ZnEVOCkjMwafLBauvZmNoA=="
-  "resolved" "https://registry.npmjs.org/@fatal_error/editor/-/editor-1.2.0.tgz"
-  "version" "1.2.0"
+"@fatal_error/editor@^1.2.3":
+  "integrity" "sha512-bbwes6XeCXZGr6N0/FYj0VA8kFh8l2l9xA3rb+qen+f5BEcQIgCYfUaIP173TPtjM5kLBCi7e+FamkjQB2cRWQ=="
+  "resolved" "https://registry.npmjs.org/@fatal_error/editor/-/editor-1.2.3.tgz"
+  "version" "1.2.3"
 
 "@jridgewell/sourcemap-codec@^1.4.13":
   "integrity" "sha512-eF2rxCRulEKXHTRiDrDy6erMYWqNw4LPdQ8UQA4huuxaQsVeRPFl2oM8oDGxMFhJUWZf9McpLtJasDDZb/Bpeg=="
